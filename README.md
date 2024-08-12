@@ -1,4 +1,8 @@
-# tinygrep
-### 版本 0.1.0
-跟着rust圣经的练手小节，后续再进行优化
-当前提供功能：大小写不敏感
+# rCollection
+rust小型项目合集，个人入门
+### tinygrep *0.1.0*
+查询文件内容，cli，入参，大小写不敏感  
+```
+cd .\src\tinygrep
+cargo run -- how poem.txt
+```

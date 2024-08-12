@@ -1,6 +1,5 @@
-workspace = { members = ["src/tinygrep"] }
 [package]
-name = "rCollection"
+name = "tinygrep"
 version = "0.1.0"
 edition = "2021"
 

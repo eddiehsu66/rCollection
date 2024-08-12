@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/tinygrep.iml" filepath="$PROJECT_DIR$/tinygrep.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rCollection.iml" filepath="$PROJECT_DIR$/rCollection.iml" />
     </modules>
   </component>
 </project>
