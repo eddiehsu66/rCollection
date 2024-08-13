@@ -7,5 +7,9 @@ name = "rCollection"
 version = "0.1.0"
 
 [[package]]
+name = "singleWeb"
+version = "0.1.0"
+
+[[package]]
 name = "tinygrep"
 version = "0.1.0"
