@@ -7,3 +7,7 @@ cargo run -- how poem.txt
 ```
 ### single-thread server
 支持get请求
+### async server
+支持get请求，异步处理
+### multi-thread server
+基本线程池实现，请求应答

@@ -1,9 +1,10 @@
-workspace = { members = [ "src/asyncWeb", "src/multiWeb", "src/singleWeb","src/tinygrep"] }
 [package]
-name = "rCollection"
+name = "multiWeb"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+reqwest = { version = "0.12.7", features = ["blocking", "json"] }
+tokio = { version = "1", features = ["full"] }

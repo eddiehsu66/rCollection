@@ -1,0 +1,175 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'multiWeb'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=multiWeb",
+                    "--package=multiWeb"
+                ],
+                "filter": {
+                    "name": "multiWeb",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'multiWeb'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=multiWeb",
+                    "--package=multiWeb"
+                ],
+                "filter": {
+                    "name": "multiWeb",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'singleWeb'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=singleWeb",
+                    "--package=singleWeb"
+                ],
+                "filter": {
+                    "name": "singleWeb",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'singleWeb'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=singleWeb",
+                    "--package=singleWeb"
+                ],
+                "filter": {
+                    "name": "singleWeb",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in library 'tinygrep'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--lib",
+                    "--package=tinygrep"
+                ],
+                "filter": {
+                    "name": "tinygrep",
+                    "kind": "lib"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'tinygrep'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=tinygrep",
+                    "--package=tinygrep"
+                ],
+                "filter": {
+                    "name": "tinygrep",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'tinygrep'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=tinygrep",
+                    "--package=tinygrep"
+                ],
+                "filter": {
+                    "name": "tinygrep",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'rCollection'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=rCollection",
+                    "--package=rCollection"
+                ],
+                "filter": {
+                    "name": "rCollection",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'rCollection'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=rCollection",
+                    "--package=rCollection"
+                ],
+                "filter": {
+                    "name": "rCollection",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
