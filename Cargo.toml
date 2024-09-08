@@ -1,4 +1,4 @@
-workspace = { members = [ "src/miniTokio", "src/asyncWeb", "src/multiWeb", "src/singleWeb", "src/tinyRedis","src/tinygrep"] }
+workspace = { members = [ "src/miniTokio", "src/asyncWeb", "src/multiWeb", "src/singleWeb", "src/tinyRedis","src/tinygrep", "src/dataStructure"] }
 [package]
 name = "rCollection"
 version = "0.1.0"
